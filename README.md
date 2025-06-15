@@ -35,8 +35,8 @@ Make sure you have the following installed:
 ### 2️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/sazzadhossainshifat/softve.git
+cd softve
 ```
 
 ---
@@ -64,9 +64,9 @@ Update the following fields in `.env`:
 APP_NAME=LaravelCMS
 APP_URL=http://localhost:8000
 
-DB_DATABASE=your_database_name
-DB_USERNAME=your_db_user
-DB_PASSWORD=your_db_password
+DB_DATABASE=softvence_exam
+DB_USERNAME=root
+DB_PASSWORD=
 ```
 
 ---
@@ -105,49 +105,7 @@ Open your browser and go to:
 
 ```
 http://localhost:8000
-```
 
----
 
-### 9️⃣ Compile Frontend Assets (Optional)
 
-```bash
-npm run dev
-```
 
----
-
-### ✅ Sample Admin Access (if applicable)
-
-```env
-Email: admin@example.com
-Password: password
-```
-
----
-
-### 📁 Folder Structure Overview
-
-- `/app/Models` — Contains `Course`, `Module`, `Content` models
-- `/resources/views` — Blade views
-- `/public/storage/videos` — Uploaded videos
-- `/routes/web.php` — Routes
-- `/database/migrations` — Migrations
-
----
-
-### 📷 Screenshots
-
-_Add screenshots here if available to show form UI, database results, etc._
-
----
-
-### 🤝 Contributing
-
-Feel free to fork and submit pull requests. For major changes, open an issue first to discuss.
-
----
-
-### 📄 License
-
-MIT License — free to use and modify.
