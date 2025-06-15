@@ -68,7 +68,7 @@
             </div>
 
             <div class="module-contents"></div>
-            <button type="button" class="btn btn-outline-secondary btn-sm mt-2 add-module-content" data-index="${moduleIndex}">+ Add Content</button>
+            <button type="button" class="btn btn-success btn-sm mt-2 add-module-content" data-index="${moduleIndex}">+ Add Content</button>
         </div>
     `;
             $('#modulesContainer').append(moduleHTML);
