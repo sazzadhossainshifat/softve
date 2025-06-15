@@ -71,26 +71,11 @@ DB_PASSWORD=
 
 ---
 
-### 5️⃣ Generate Application Key
-
-```bash
-php artisan key:generate
-```
-
----
 
 ### 6️⃣ Run Migrations
 
 ```bash
 php artisan migrate
-```
-
----
-
-### 7️⃣ Link Storage (For File Uploads)
-
-```bash
-php artisan storage:link
 ```
 
 ---
