@@ -71,6 +71,14 @@ DB_PASSWORD=
 
 ---
 
+### 5️⃣ Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+---
+
 
 ### 6️⃣ Run Migrations
 
